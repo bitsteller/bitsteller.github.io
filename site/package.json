@@ -16,5 +16,8 @@
   "devDependencies": {
     "@vuepress/plugin-blog": "latest",
     "vuepress": "next"
+  },
+  "peerDependencies": {
+    "vuepress": "^1.0.0"
   }
 }
