@@ -21,6 +21,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
+  theme: require.resolve('../'),
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -33,6 +34,10 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
+      {
+        text: 'Blog',
+        link: '/posts/',
+      },
       {
         text: 'Guide',
         link: '/guide/',

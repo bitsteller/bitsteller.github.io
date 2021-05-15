@@ -2,6 +2,7 @@
 tag: 
   - vue
   - vuepress
+  - test
 ---
 
 # Intro to VuePress
