@@ -1,0 +1,19 @@
+{
+  "name": "bitsteller.github.io",
+  "version": "0.0.1",
+  "description": "Personal homepage of Nils Breyer",
+  "main": "index.js",
+  "authors": {
+    "name": "Nils Breyer",
+    "email": "mail@nilsbreyer.eu"
+  },
+  "repository": "https://github.com/bitsteller/bitsteller.github.io",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
