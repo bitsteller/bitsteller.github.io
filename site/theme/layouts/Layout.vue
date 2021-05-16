@@ -1,8 +1,6 @@
 <template>
   <ParentLayout>
-    
-  {{$page.layout}}
-
+    Post
   <Content/>
 
   </ParentLayout>
