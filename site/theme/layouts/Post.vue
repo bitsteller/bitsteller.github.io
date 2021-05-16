@@ -1,7 +1,5 @@
 <template>
   <ParentLayout>
-    
-  {{$page.layout}}
 
   <Content/>
 
