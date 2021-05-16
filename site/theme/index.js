@@ -8,6 +8,8 @@ module.exports = {
             id: 'post',
             dirname: 'posts',
             path: '/',
+            layout: "Posts",
+            itemLayout: "Post",
             pagination: {
               perPagePosts: 2,
             },
