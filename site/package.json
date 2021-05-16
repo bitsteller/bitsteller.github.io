@@ -15,7 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.4",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "@vuepress/theme-blog": "^2.3.3"
   },
   "peerDependencies": {
     "vuepress": "^1.0.0",
