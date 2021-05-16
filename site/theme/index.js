@@ -5,14 +5,15 @@ module.exports = {
       ['@vuepress/blog', {
         directories: [
           {
-            id: 'post',
-            dirname: 'posts',
-            path: '/posts/',
+            id: 'blog',
+            dirname: 'blog',
+            path: '/blog/',
             layout: "Posts",
             itemLayout: "Post",
             pagination: {
               perPagePosts: 2,
             },
+            itemPermalink: '/blog/:year/:month/:day/:slug'
           },
         ],
         frontmatters: [
