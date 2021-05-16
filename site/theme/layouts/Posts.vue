@@ -2,7 +2,7 @@
   <ParentLayout>
 
   <div>
-    <ul id="default-layout">
+    <ul>
       <li v-for="page in $pagination.pages">
         <router-link class="page-link" :to="page.path">{{ page.title }}</router-link>
       </li>
