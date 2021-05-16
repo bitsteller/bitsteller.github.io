@@ -22,8 +22,9 @@ module.exports = {
   ],
 
 
-  theme: require.resolve('../../theme/'),
-
+  //theme: require.resolve('../../theme/'),
+  theme: '@vuepress/blog',
+  
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
