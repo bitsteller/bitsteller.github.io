@@ -1,6 +1,6 @@
 <template>
   <ParentLayout>
-
+    Post
   <Content/>
 
   </ParentLayout>

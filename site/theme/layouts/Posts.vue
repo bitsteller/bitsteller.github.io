@@ -1,6 +1,6 @@
 <template>
   <ParentLayout>
-
+  Posts
   <div>
     <ul>
       <li v-for="page in $pagination.pages">
