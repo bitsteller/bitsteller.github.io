@@ -27,6 +27,7 @@
       </template>
     </Sidebar>
 
+    {{$page.layout}}
     <Home v-if="$page.frontmatter.home" />
     <IndexPage v-if="$page.frontmatter.layout=='Posts'" />
 
