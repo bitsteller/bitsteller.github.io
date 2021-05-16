@@ -1,4 +1,6 @@
 <template>
+  <ParentLayout>
+
   <div>
     <ul id="default-layout">
       <li v-for="page in $pagination.pages">
@@ -10,4 +12,16 @@
       <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
     </div>
   </div>
+
+  </ParentLayout>
 </template>
+
+<script>
+import ParentLayout from '@parent-theme/layouts/Layout.vue'
+
+export default {
+  components: {
+    ParentLayout
+  }
+}
+</script>
