@@ -24,7 +24,7 @@ module.exports = {
 
   //theme: require.resolve('../../theme/'),
   theme: '@vuepress/blog',
-  
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -65,7 +65,18 @@ module.exports = {
           ]
         }
       ],
-    }
+    },
+    directories: [
+      {
+        id: 'blog',
+        dirname: 'blog',
+        path: '/blog/',
+        pagination: {
+          perPagePosts: 2,
+        },
+        itemPermalink: '/blog/:year/:month/:day/:slug'
+      },
+    ]
   },
 
   /**
