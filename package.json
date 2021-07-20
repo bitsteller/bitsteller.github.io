@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "site:dev": "vuepress dev site",
+    "site:build": "vuepress build site"
+  },
+  "dependencies": {
+    "vue-silentbox": "^2.4.5"
+  }
+}

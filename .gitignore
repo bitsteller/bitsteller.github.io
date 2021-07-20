@@ -1,0 +1,6 @@
+backup/*
+node_modules/*
+site/.vuepress/dist/*
+*.lock
+package-lock.json
+*.log

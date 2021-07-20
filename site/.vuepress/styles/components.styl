@@ -1,0 +1,30 @@
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  column-gap: 40px;
+  row-gap: 40px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.block {
+  border-color: $borderColor;
+  align-self: stretch;
+  padding: 5px;
+  /*filter: drop-shadow(0 0 20px $borderColor);*/
+  border-top: 4px solid $accentColor;
+  background-color: $backgroundColor;
+}
+
+.block:nth-child(1) {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+
+@media (max-width: 1024px) {
+  .blocks {
+    grid-template-columns: 1fr 1fr;
+  }
+}
