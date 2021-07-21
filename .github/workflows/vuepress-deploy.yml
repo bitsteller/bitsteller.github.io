@@ -12,4 +12,4 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_SCRIPT: cd site && npm install && yarn site:build
-        BUILD_DIR: site/.vuepress/dist/
+        BUILD_DIR: .vuepress/dist/
