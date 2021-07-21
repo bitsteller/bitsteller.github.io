@@ -11,7 +11,7 @@
 .block {
   border-color: $borderColor;
   align-self: stretch;
-  padding: 5px;
+  padding: 0px;
   /*filter: drop-shadow(0 0 20px $borderColor);*/
   border-top: 4px solid $accentColor;
   background-color: $backgroundColor;
@@ -19,9 +19,32 @@
 
 .block:nth-child(1) {
   grid-column: 1 / 3;
-  grid-row: 1 / 3;
+  grid-row: 1 / 2;
 }
 
+.cover
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 15em;
+  
+.block .cover
+  position: relative;
+  height: 10em;
+  
+main .cover
+  position: fixed;
+  top:0px;
+
+.theme-default-content
+  background-color: #FFFFFF;
+  position: relative;
+  /*border-radius: 15px*/
+  z-index:1;
+
+.cover ~ .page
+  margin-top: 10em;
 
 @media (max-width: 1024px) {
   .blocks {

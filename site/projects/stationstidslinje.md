@@ -1,11 +1,10 @@
-{
-	"author": "Nils Breyer",
-	"tags": ["javascript", "web", "railway", "sweden"],
-	"type": "project",
-	"start": "2014",
-	"end": "2014",
-	"cover": "!./stationstidslinje/screenshot"
-}
+---
+title: "Stationstidslinje"
+date: 2019-02-09
+description: "Stationstidslinje is a visualisation of the trains arriving and departing at railway stations in Sweden in realtime on a timeline."
+tags: ["javascript", "web", "railway", "sweden"]
+cover: "/projects/stationstidslinje/screenshot.png"
+---
 
 # Stationstidslinje
 

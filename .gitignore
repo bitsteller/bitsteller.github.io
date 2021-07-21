@@ -4,3 +4,4 @@ site/.vuepress/dist/*
 *.lock
 package-lock.json
 *.log
+site/_tmp/*

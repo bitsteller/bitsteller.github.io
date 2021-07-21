@@ -1,12 +1,10 @@
-{
-	"author": "Nils Breyer",
-	"tags": ["javascript", "python", "web", "osm", "3D"],
-	"type": "project",
-	"start": "2011",
-	"end": "2014",
-	"status": "maintenance",
-	"cover": "!./osm-isometric-3d/screenshot"
-}
+---
+title: "osm-isometric-3d"
+date: 2015-05-10
+description: "Webfrontend and rendering script for generating isometric 3D maps of OSM data using osm2pov and povray."
+tags: ["javascript", "python", "web", "osm", "3D"]
+cover: "/projects/osm-isometric-3d/screenshot.png"
+---
 
 # osm-isometric-3d
 

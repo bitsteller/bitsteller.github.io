@@ -1,12 +1,12 @@
 <template>
     <div class="blocks">
         <div v-for="article in articles" class="block">
-            <img v-if="article.frontmatter.cover" v-bind:src="$withBase(article.frontmatter.cover)" />
-            <h2>
-                <router-link :to="article.path">
-                    {{ article.frontmatter.title }}
-                </router-link>
-            </h2>
+            <router-link :to="article.path">
+                <div v-if="article.frontmatter.cover" v-bind:style="{'background-image':'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(' + $withBase(article.frontmatter.cover) + ')'}" class="cover" />
+                <h2>
+                        {{ article.frontmatter.title }}
+                </h2>
+            </router-link>
             <p>{{ article.frontmatter.date | formatDate }}</p>
             <p>{{ article.frontmatter.description }}</p>
         </div>
