@@ -201,7 +201,7 @@ th, td
   max-width:1024px;
 
 @media (max-width: ($MQMobile + 1px))
-  .theme-container.no-sidebar
+  .theme-container:not(.sidebar-open) //.theme-container.no-sidebar
     .sidebar
       display none
 
